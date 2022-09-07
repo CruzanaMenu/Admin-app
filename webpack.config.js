@@ -7,6 +7,8 @@ module.exports = {
 	output: {
 		path: path.resolve(__dirname, 'dist'),
 		filename: 'bundle.js',
+		publicPath : '/'
+
 	},
 	mode: 'development',
 	resolve: {
@@ -30,12 +32,14 @@ module.exports = {
 				]
 			},
 			{
-				test: /\.s[ac]ss$/i,
+				test: /\.(css|scss)$/,
 				use: [
-					"style-loader",
-					"css-loader",
-					"sass-loader",
-				],
+					'style-loader',
+					'css-loader',
+					'sass-loader',
+					"postcss-loader",			
+				  ]
+				
 			}
 		]
 	},
@@ -49,10 +53,9 @@ module.exports = {
 		}),
 	],
     devServer: {
-        static: {
-          directory: path.join(__dirname, 'public'),
-          },
-        compress: true,
-        port: 3005,
+			// watchContentBase: true,
+			// contentBase: path.resolve(__dirname, "public"),
+			// open: true,
+		historyApiFallback: true, // Con este funciona solo.
       }
 }
