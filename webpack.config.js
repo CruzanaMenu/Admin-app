@@ -13,6 +13,19 @@ module.exports = {
 	mode: 'development',
 	resolve: {
 		extensions: ['.js', '.jsx'],
+		alias : {
+			"@assets": path.resolve(__dirname, "src/assets/"),
+            "@components": path.resolve(__dirname, "src/components/"),
+            "@containers": path.resolve(__dirname, "src/containers/"),
+            "@pages": path.resolve(__dirname,"src/pages/"),
+            "@styles": path.resolve(__dirname, "src/styles/"),
+            "@logos": path.resolve(__dirname, "src/assets/Logos/"),
+            "@icons": path.resolve(__dirname, "src/assets/Icons/"),
+            "@hooks": path.resolve(__dirname, "src/hooks/"),
+            "@context": path.resolve(__dirname, "src/context/"),
+            "@routes": path.resolve(__dirname,"src/routes/"),
+			"@public": path.resolve(__dirname, "public/"),
+        }
 	},
 	module: {
 		rules: [
@@ -40,7 +53,18 @@ module.exports = {
 					"postcss-loader",			
 				  ]
 				
-			}
+			},
+			{
+				test:  /\.(png|jp(e*)g|svg|gif|webp)$/,
+				use: [
+					{
+						loader: 'file-loader',
+						options: {
+							name: 'images/[hash]-[name].[ext]',
+						},
+					},
+				],
+			},
 		]
 	},
 	plugins: [

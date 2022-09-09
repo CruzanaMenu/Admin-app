@@ -187,11 +187,6 @@ Comando npm run start del package.json
 ```javascript
 module.exports = {
   content: [
-    // './src/**/*.{html,jsx}',
-    // './src/pages/**/*.{html,jsx}',
-    // './src/components/**/*.{html,jsx}',
-    // './src/layouts/**/*.{html,jsx}',
-    // './public/index.html',
     "./public/index.html", "./src/**/*.{html,jsx}",
   ],
   darkMode: 'media', // or 'media' or 'class'
