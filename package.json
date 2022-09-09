@@ -6,8 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack server",
-    "build": "webpack --mode production",
-    "tailwind": "npx tailwindcss -i ./src/styles.css -o ./docs/index.css --watch"
+    "build": "npx tailwindcss -i ./src/styles.css -o ./public/index.css && webpack --mode production",
+    "tailwind": "npx tailwindcss -i ./src/styles.css -o ./public/index.css --watch",
+    "starttail": "npx tailwindcss -i ./src/styles.css -o ./public/index.css && webpack server"
   },
   "repository": {
     "type": "git",
