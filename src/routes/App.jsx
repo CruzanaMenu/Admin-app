@@ -12,6 +12,7 @@ import Layout from '@containers/Layout';
 
 //Components
 import Navbar from '@components/navbar';
+import Footer from '@components/footer';
 
 
 //Styles
@@ -28,6 +29,7 @@ const App = () => {
                     <Route exact path="/login" element={<Login />} />			
                     <Route path="*" element={<NotFound />} />
                 </Routes>
+                <Footer />
             </Layout>
 </BrowserRouter> 
     );

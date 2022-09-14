@@ -15,8 +15,8 @@ const Recomended = () => {
             <div className="w-full h-full flex-col space-y-6 items-center justify-center lg:grid lg:grid-cols-2 lg:grid-rows-3 lg:gap-3">
 
                 <div style={{backgroundImage: `url(${polloHorno})`}} className="w-full h-96 bg-cover rounded-xl bg-center lg:bg-center lg:col-span-2 lg:row-span-1">
-                    <p className="CardTitle lg:text-white">Alitas teriyaki de Vietnam</p>
-                    <p className=" text-sm pl-8 text-white lg:text-white lg:text-lg lg:font-semibold mr-24 ">Mezcla de especias surasiáticas, cubiertas con salsa teriyaki reposada durante 2 días.</p>
+                    <p className="CardTitle lg:text-white drop-shadow-lg shadow-black">Alitas teriyaki de Vietnam</p>
+                    <p className=" text-sm pl-8 text-white lg:text-white lg:text-lg lg:font-semibold mr-24 drop-shadow-2xl shadow-black">Mezcla de especias surasiáticas, cubiertas con salsa teriyaki reposada durante 2 días.</p>
                 </div>
                 
                 <div style={{backgroundImage: `url(${churrasco})`}} className="w-full h-96 rounded-xl bg-cover bg-center lg:col-span-1 lg:row-span-2 lg:h-full">

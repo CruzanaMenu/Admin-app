@@ -14,8 +14,11 @@ module.exports = {
         ebano: '#C7B299',
         carmesi: '#C0392B',
         tinto: '#641e16',
+        principal: '#2b2b2b',
+        backfoot: '#44475B',
       },
       fontSize: {
+        xsm: ['10px'],
         sma: ['14px'],
         med: ['16px'],
         lag: ['18px']
@@ -24,10 +27,6 @@ module.exports = {
         "primary": "#C0392B",
         "secondary": "#641E16",
         "terth": "#C7B299",
-      },
-      backgroundImage:
-      {
-        'DesktopBanner': "url('./src/assets/Img/carneasada.jpg')",
       },
     },
   },

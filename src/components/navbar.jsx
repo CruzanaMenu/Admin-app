@@ -7,11 +7,11 @@ const Navbar = () => {
                 <p className="text-xl text-white font-black pl-1">LA CRUZANA RESTAURANTE</p>
             </div>
             <div className="flex space-x-8">
-                <a className="font-bold text-md text-primary hover:text-black" href="#home">Inicio</a>
-                <a className="font-bold text-md text-primary hover:text-black" href="#popular">Populares</a>
-                <a className="font-bold text-md text-primary hover:text-black" href="#recomended">Selección del chef</a>
-                <a className="font-bold text-md text-primary hover:text-black" href="#faqs">FAQS</a>
-                <a className="font-bold text-md text-primary hover:text-black" href="#aboutus">About Us</a>
+                <a className="font-bold text-md text-ebano hover:text-black" href="#home">Inicio</a>
+                <a className="font-bold text-md text-ebano hover:text-black" href="#popular">Populares</a>
+                <a className="font-bold text-md text-ebano hover:text-black" href="#recomended">Selección del chef</a>
+                <a className="font-bold text-md text-ebano hover:text-black" href="#faqs">Dudas</a>
+                <a className="font-bold text-md text-ebano hover:text-black" href="#aboutus">Nosotros</a>
             </div>
             <div className="flex space-x-4">
                 <svg width="21" height="21" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">

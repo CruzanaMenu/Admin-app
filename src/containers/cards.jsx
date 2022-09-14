@@ -30,14 +30,14 @@ const cards = () => {
                     <div className="Card--cover" style={{backgroundImage: `url(${carneend})`}} ></div>
                         <div className="Card--info">
                             <p className="Card--info__title">Carne endiablada</p>
-                            <p className="Card--info__subtitle">Paisajes increaibles</p>
+                            <p className="Card--info__subtitle">La preferida del chef</p>
                     </div>
                 </div>
 
                 <div className="Card">
                     <div className="Card--cover" style={{backgroundImage: `url(${solomito})`}}></div>
                         <div className="Card--info">
-                            <p className="Card--info__title">Solomito</p>
+                            <p className="Card--info__title">Solomito a la plancha</p>
                             <p className="Card--info__subtitle">La gran manzana</p>
                     </div>
                 </div>
@@ -45,14 +45,14 @@ const cards = () => {
                     <div className="Card--cover" style={{backgroundImage: `url(${salmon})`}}></div>
                         <div className="Card--info">
                             <p className="Card--info__title">Salmon asado</p>
-                            <p className="Card--info__subtitle">Una pausa del mundo</p>
+                            <p className="Card--info__subtitle">En jugo de limón</p>
                     </div>
                 </div>
                 <div className="Card">
                     <div className="Card--cover" style={{backgroundImage: `url(${churrasco})`}}></div>
                         <div className="Card--info">
-                            <p className="Card--info__title">Churrasco Argentino</p>
-                            <p className="Card--info__subtitle">El gran puerto del este </p>
+                            <p className="Card--info__title">Churrasco</p>
+                            <p className="Card--info__subtitle">Directo de Buenos Aires</p>
                     </div>
                 </div>
                 <div className="Card">
