@@ -25,6 +25,10 @@
 .Card:nth-child(even) .Card--info__subtitle {
   @apply text-ebano dark:text-blue-300;
 }
-.CardTitle{
-    @apply text-3xl px-8 pt-8 pb-2 font-semibold text-white;
-  }
+.CardTitle {
+  @apply text-3xl px-8 pt-8 pb-2 font-semibold text-white text-shadow-xl shadow-black;
+}
+
+.CardTitle_subtitle {
+  @apply text-sm pl-8 text-white lg:text-white lg:text-lg lg:font-semibold mr-24 text-shadow-3xl shadow-black;
+}

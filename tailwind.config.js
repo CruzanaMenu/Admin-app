@@ -28,6 +28,13 @@ module.exports = {
         "secondary": "#641E16",
         "terth": "#C7B299",
       },
+      screens: {
+        'movil': '640px'
+      },
+      textShadow: {
+        '2xl': '1px 1px 5px rgb(33 34 43 / 20%)',
+        '3xl': '0 0 3px rgba(0, 0, 0, .8), 0 0 5px rgba(0, 0, 0, .9)',
+      },
     },
   },
   variants: {
@@ -37,5 +44,6 @@ module.exports = {
   },
   plugins: [
     require('tailwind-scrollbar-hide'),
+    require('tailwindcss-textshadow'),
   ],
 }
